@@ -1,21 +1,21 @@
-// chiedere all'utente il suo nome, cognome ed il colore preferito e mostrare le risposte in schermata
+// Traccia: chiedere all'utente il suo nome, cognome ed il colore preferito e mostrare le risposte in schermata
 
 //inserire un prompt per chiedere all'utente il suo nome, registrandolo in una variabile
-let username = prompt ("Qual è il tuo nome?");
+const username = prompt ("What's your name?");
 console.log(username);
 
 //inserire un prompt per chiedere all'utente il suo cognome, registrandolo in una variabile
-let surname = prompt ("Qual è il tuo cognome?");
+const surname = prompt ("What's your surname");
 console.log(surname);
 
 //inserire un prompt per chiedere all'utente il suo colore preferito, registrandolo in una variabile
-let favoriteColor = prompt ("Qual è il tuo cognome?");
+const favoriteColor = prompt ("What's your favorite color?");
 console.log(favoriteColor);
 
 //aggiungere un h1 con id per mostrare in schermata le risposte
 
-//seleziono e salvo in una variabile l'elemento della dom con getElementById
-let nameElement = document.getElementById('answers');
+//selezionare e salvare in una variabile l'elemento della dom con getElementById
+const nameElement = document.getElementById('answers');
 console.log(nameElement);
 
 //stampare in schermata le risposte tutte attaccate con l'aggiunta del suffisso '23' assegnando un nuovo valore all'innerHTML
